@@ -1,0 +1,62 @@
+body{ 
+    background-color: rgb(97, 130, 199);
+}
+#barraNavegacao{
+    background-color: rgb(173, 189, 219);
+}
+h1{
+    font-family: Cambria, Cochin, Georgia;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12;
+    color: #ffffff;
+}
+
+hr{
+    /* linha sólida preta com 1 pixel de largura */
+    border:1px solid;
+    border-color: aliceblue;
+    width: 250px;
+}
+table{
+    border:2px solid;
+}
+tr,td{
+    border:1px solid;
+    width: 200px;
+    text-align: center;
+}
+#cabecalho{
+    background-color: rgb(173, 189, 219);
+    font-weight: bolder;
+}
+img{
+    width: 25%;
+    height: 25%;
+}
+img:hover {
+    width: 50%;
+    height: 50%;
+}
+body:active{
+    background-color: rgb(173, 189, 219);
+}
+.menu{
+    display:inline-block;
+}
+.menu a{
+    /*Cria uma cx para cada item do menu*/
+    display: inline-block;
+    /*Cor da letra*/
+    color: black;
+    /*Alinhamento do texto no bloco*/
+    padding: 15px 15px;
+    text-decoration:none;/*retira o traçado do link*/
+    width:  auto;/*largura do bloco*/
+    border: black;
+}
+
